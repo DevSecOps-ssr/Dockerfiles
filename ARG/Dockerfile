@@ -5,3 +5,4 @@ ARG employee_id = 20241209 \
     designation = "DevOps Engineer" \
     company_name = "ProcessQ"
 RUN echo "Working as a ${designation} at ${company_name}"
+CMD [ "sleep", "200" ]
